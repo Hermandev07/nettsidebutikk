@@ -166,7 +166,7 @@
 
     .image-container {
         /* Add the image using the background-image property */
-        background-image: url('/bilder/bilde.png');
+        background-image: url('../bilder/bilde.png');
         background-size: cover;
         background-position: center;
         width: 60%;
@@ -179,7 +179,7 @@
 
       .image-container2 {
         /* Add the image using the background-image property */
-        background-image: url('/bilder/turmat_1140x.png');
+        background-image: url('../bilder/turmat_1140x.png');
         background-size: cover;
         background-position: center;
         width: 30%;
