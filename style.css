@@ -1,0 +1,219 @@
+* {
+    padding: 0;
+    margin: 0;    box-sizing:-box;
+   }
+    
+   html, body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+   }
+    
+   header {
+    background-color: #000000;
+    position: relative;
+   }
+
+   #logo {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70px;
+        padding:  25px 0;
+}
+   nav {
+    min-height: 100vh;
+    background-color: #3FA752;
+    font-size: 3rem;
+    }
+    
+    nav li {
+    display: inline; 
+    color: white;
+    font-weight: 800;
+    background-color: #3FA752;
+    padding: 10px 20px;
+    text-decoration: none;
+    }
+    
+    nav-left{
+    display: block;
+    position: static;
+    text-align: center;
+    min-height: unset;
+    background-color: black;
+    font-size: 1.2rem;
+    }
+
+    #button-container {
+        position: relative;
+    }
+
+    .page-buttons {
+        position: absolute;
+        top: -70px;
+        left: 20px;
+    }
+    
+    .page-buttons li a {
+        font-family: Libre Franklin, sans-serif;
+        font-size: 19px;
+        text-decoration: none;
+        color: rgb(114, 114, 114);
+    }
+    
+    .page-buttons li a:hover {
+        color: #007bff;
+    }
+
+    .cta-green {
+        background-color: #3FA752;
+        font-size: 1.2rem;
+        font-weight: 800;
+        text-decoration-line: none;
+        text-align: center;
+        color: white;
+        text-transform: uppercase;
+        padding: 10px 40px;
+        margin-top: 30px;
+        }
+
+    
+    .logo-bar{
+        --rem: 16;
+        -webkit-font-smoothing: antialiased;
+        -webkit-text-size-adjust: 100%;
+        font-size: 16px;
+        font-family: Libre Franklin,sans-serif;
+        font-style: normal;
+        font-weight: 450;
+        color: #415c33;
+        line-height: 1.5;
+        box-sizing: border-box;
+        margin-left: 50px;
+    }
+
+    .logo-bar__item{
+        --rem: 16;
+        -webkit-font-smoothing: antialiased;
+        -webkit-text-size-adjust: 100%;
+        font-size: 16px;
+        font-family: Libre Franklin,sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        color: #415c33;
+        line-height: 1.5;
+        box-sizing: border-box;
+        list-style: none;
+        vertical-align: middle;
+        display: inline-block;
+        width: 24%;
+        padding-right: 0;
+        margin: 10px auto;
+        max-width: 100%;
+        text-align: left;
+    }
+
+    .site-footer{
+        --rem: 16;
+        -webkit-font-smoothing: antialiased;
+        -webkit-text-size-adjust: 100%;
+        font-size: 16px;
+        font-family: Libre Franklin,sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.5;
+        box-sizing: border-box;
+        display: block;
+        margin-top: 55px;
+        padding: 45px 0 55px;
+        color: #333232;
+        background-color: #cccccc;
+    }
+
+    .site-footer__content{
+        --rem: 16;
+        -webkit-font-smoothing: antialiased;
+        -webkit-text-size-adjust: 100%;
+        font-size: 16px;
+        font-family: Libre Franklin,sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #333232;
+        box-sizing: border-box;
+        display: flex;
+        width: 100%;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        padding: 0 18px;
+    }
+
+    .site-footer__hr{
+        --rem: 16;
+        -webkit-font-smoothing: antialiased;
+        -webkit-text-size-adjust: 100%;
+        font-size: 16px;
+        font-family: Libre Franklin,sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #333232;
+        box-sizing: border-box;
+        border: 0;
+        margin: 55px 0 30px;
+        border-bottom: 1px solid #b3b3b3;
+    }
+
+    .image-container {
+        /* Add the image using the background-image property */
+        background-image: url('../bilder/bilde.png');
+        background-size: cover;
+        background-position: center;
+        width: 60%;
+        height: 400px; /* Adjust the height to your preference */
+        position: relative;
+        margin-left: 40px;
+        margin-top: 40px;
+
+      }
+
+      .image-container2 {
+        /* Add the image using the background-image property */
+        background-image: url('../bilder/turmat_1140x.png');
+        background-size: cover;
+        background-position: center;
+        width: 30%;
+        height: 400px; /* Adjust the height to your preference */
+        position: relative;
+        margin-left: 850px;
+        margin-top: -400px;
+      }
+      
+      .bilde-button {
+        /* This is just a transparent placeholder for the image container */
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0);
+        cursor: pointer;
+      }
+      
+      .image-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: rgb(0, 0, 0);
+        opacity: 0.8;
+      }
+      
+      .bilde-tekst-stor {
+        font-size: 2rem;
+        margin-bottom: 0.5rem;
+      }
+      
+      .bilde-tekst-liten {
+        font-size: 1rem;
+      }
+      
+      
